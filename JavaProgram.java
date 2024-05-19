@@ -1,4 +1,5 @@
 //Coding With John - 15min Crash Course on Java
+
 //Variables store store data
 //Inside the Method or Function you have your main, which basically controls what that Method does when you call it
 // int is the type of variable
@@ -57,92 +58,92 @@
 
 
 //1.(Creating variables and then storing the value of two variables inside of another vairable.)
-//public class JavaProgram {
-  //public static void main(String[] args) {
-  //  int number = 7;
-  //  double shoeSize = 9.5;
-   // char myInitial = 'D';
-   // double result = number * shoeSize;
+public class JavaProgram {
+  public static void main(String[] args) {
+    int number = 7;
+    double shoeSize = 9.5;
+   
+    double result = number * shoeSize;
 
- //   System.out.println(result);
- // }
-//}
+    System.out.println(result);
+  }
+}
 
 // 2.(Creating a main method and a method declaration, which is another method. We then call that method into the main method to print the concatenating strings with the parameters.)
-//public class JavaProgram {
-  //public static void main(String[] args) {
-  //  air("Devin");
- // }
- // private static void air(String name) {
- //   System.out.println("Hello " + name);
- // }
-//}
+public class JavaProgram {
+  public static void main(String[] args) {
+    air("Devin");
+  }
+  private static void air(String name) {
+    System.out.println("Hello " + name);
+  }
+}
 
 
 //3. Creating our Conditional Statements which are "if(), else if(), and else statements." Putting them inside of the Method Declaration and then calling it in the main method.
-//public class JavaProgram {
- // public static void main(String[] args) {
- //   air("Mark");
- // }
-  //private static void air(String name) {
-  //  if(name.equals("Mark")) {
-  //    System.out.println("Hello Mark");
-  //  }
-  //  else if(name.equals("Devin")) {
-  //    System.out.println("Hello Devin");
-   // }
-  //  else {
-   //   System.out.println("Hello Stranger");
+public class JavaProgram {
+  public static void main(String[] args) {
+    air("Mark");
+  }
+  private static void air(String name) {
+    if(name.equals("Mark")) {
+      System.out.println("Hello Mark");
+    }
+    else if(name.equals("Devin")) {
+      System.out.println("Hello Devin");
+    }
+    else {
+      System.out.println("Hello Stranger");
       
-   // }
- // }
-//}
+    }
+  }
+}
 
 //4.Creating our Conditional Statement with numbers instead of Strings in our Method Declaration. We then call that method to the main method. With either == , != , > , or < operators.
-//public class JavaProgram {
- // public static void main(String[] args) {
-   // air(8);
- // }
- // public static void air(int num) {
- //   if(num == 7) {
- //     System.out.println("Hello 7");
- //   }
-  //  else if(num < 8) {
-  //    System.out.println("Hello 8");
-  //  }
-  //  else {
-  //    System.out.println("Hello Stranger");
-  //  }
- // }
-//}
+public class JavaProgram {
+  public static void main(String[] args) {
+    air(8);
+  }
+  public static void air(int num) {
+    if(num == 7) {
+      System.out.println("Hello 7");
+    }
+    else if(num < 8) {
+      System.out.println("Hello 8");
+    }
+    else {
+      System.out.println("Hello Stranger");
+    }
+  }
+}
 
 
-//5.Creating loops. Type of loop is For(). 
-//public class JavaProgram {
-  //public static void main(String[] args) {
- //   for (int i = 0; i < 4; ++i){
-  //    System.out.println("Hello ");
- //   } 
- // }
-//}
+//5.Creating a for loop. Type of loop is For(). 
+public class JavaProgram {
+  public static void main(String[] args) {
+    for (int i = 0; i < 4; ++i){
+      System.out.println("Hello ");
+    } 
+  }
+}
 
 
 //6.Call another file with its Method into this file while also setting the parameters value.
-//public class JavaProram {
- // public static void main(String[] args) {
- //   Cat.air("Devin");
- // }
-//}
+public class JavaProram {
+  public static void main(String[] args) {
+    Cat.air("Devin");
+  }
+}
 
 
 //7. Calling a print statement from another file and then creating objects in our main file to give the fields values to print. 
 //Created the variables with no value from a sepearte class or program.
-//public class JavaProgram {
-//  public static void main(String[] args) {
-  //  Cat cat1 = new Cat();
-  //  cat1.name = "Devin";
- //   cat1.age = 7;
-  //  Cat.meow();
-   // System.out.println(cat1.name + " " + cat1.age);
- // }
-//}
+public class JavaProgram {
+  public static void main(String[] args) {
+    Cat cat1 = new Cat();
+    cat1.name = "Devin";
+    cat1.age = 7;
+    Cat.meow();
+    System.out.println(cat1.name + " " + cat1.age);
+  }
+}
